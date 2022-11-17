@@ -11,12 +11,27 @@ body {
 }
 
 /* HEADER  */
+.boh {
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 2;
+      margin: 5px;
+}
 
+.boh span{
+      background-color: #4a4a4a;
+      padding: 5px;
+      color: white;
+      font-size: 0.6em;
+      margin-left: 5px;
+}
 
 
 /* MAIN  */
 main {
       background-color: black;
+      overflow: auto;
 }
 
 .container {
@@ -28,7 +43,6 @@ main {
       flex-wrap: wrap;
       justify-content: space-around;
       align-items: center;
-      overflow: auto;
 }
 
 .card {
