@@ -6,18 +6,9 @@
  }
 
   /* REGOLE GENERALI  */
-  .container {
-      width: 90%;
-      height: 100vh; 
-      margin: 0 auto;
-      padding: 5% 0;
-      flex-wrap: wrap;
-      align-items: ;
-  }
-
-  .flex {
+.flex {
       display: flex;
-  }
+}
 
 /* HEADER  */
 
@@ -26,15 +17,36 @@ main {
       background-color: black;
 }
 
+.container {
+      max-width: 90vw;
+      height: 100vh;
+      margin: 0 auto;
+      padding: 5% 0;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+.card {
+      min-width: calc(100%/7);
+      height: 110px;
+}
+
 .img-box {
-      width: calc(100% / 7);
-      height: 130px;
+      width: 100%;
       background-image: url("../img/img.jpg");
       background-size: cover;
-      background-position: center;
       margin: 2px;
-      
+      background-position: center;
+      align-items: flex-end;
 }
+
+.box-name {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 5px;
+      font-size: 0.8em;
+}
+
 /* FOOTER  */
 
 
