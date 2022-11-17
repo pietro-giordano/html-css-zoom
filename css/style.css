@@ -6,17 +6,53 @@
  }
 
   /* REGOLE GENERALI  */
-  /* .container {
-      width: ; 
+  .container {
+      width: 90%;
+      height: 100vh; 
       margin: 0 auto;
-  } */
+      padding: 5% 0;
+      flex-wrap: wrap;
+      align-items: ;
+  }
 
-   /* HEADER  */
+  .flex {
+      display: flex;
+  }
 
-    /* MAIN  */
+/* HEADER  */
 
-     /* FOOTER  */
+/* MAIN  */
+main {
+      background-color: black;
+}
 
-
-      /* DEBUG  */
+.img-box {
+      width: calc(100% / 7);
+      height: 130px;
+      background-image: url("../img/img.jpg");
+      background-size: cover;
+      background-position: center;
+      margin: 2px;
       
+}
+/* FOOTER  */
+
+
+/* DEBUG  */
+      .border {
+            border: 2px dashed black;
+      }
+
+      .box {
+            background-color: aquamarine;
+      }
+
+      .box2 {
+            background-color: yellow;
+            width: 100%;
+            height: 100%;
+      }
+
+      .box3 {
+            background-color: red;
+      }
